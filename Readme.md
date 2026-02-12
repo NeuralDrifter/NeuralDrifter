@@ -1,110 +1,128 @@
-<!-- NeuralDrifter | AI Infrastructure & Tooling Profile -->
+<!-- NeuralDrifter | AI Infrastructure & Sovereign Computing -->
 
 <div align="center">
 
-<!-- Cyber-Nomad Header -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=220&section=header&text=NeuralDrifter&fontSize=80&fontAlignY=35&animation=twinkling&fontColor=76B900&desc=bare%20metal%20%E2%80%A2%20local%20inference%20%E2%80%A2%20sovereign%20compute&descAlignY=55&descSize=18"/>
 
-<img width="100%" src="https://www.google.com/search?q=https://capsule-render.vercel.app/api%3Ftype%3Dwaving%26color%3Dgradient%26customColorList%3D00D9FF,76B900,000000%26height%3D220%26section%3Dheader%26text%3DNeuralDrifter%26fontSize%3D80%26fontAlignY%3D35%26animation%3Dtwinkling%26fontColor%3Dfff"/>
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=80&lines=%24+gpuctl+--status+%3E+all_systems_nominal;%24+inferenced+--mode+sovereign+--cloud+none)](https://git.io/typing-svg)
 
-<!-- 90s Hacker Style Typing SVG -->
+<br>
 
-<a href="https://git.io/typing-svg"><img src="https://www.google.com/search?q=https://readme-typing-svg.demolab.com%3Ffont%3DFira%2BCode%26size%3D24%26duration%3D3500%26pause%3D800%26color%3D76B900%26center%3Dtrue%26vCenter%3Dtrue%26multiline%3Dtrue%26width%3D600%26height%3D100%26lines%3Dsystem_init:%2B%2BNeuralDrifter%3Bspecialization:%2B%2BAI%2BInfrastructure%3Bstatus:%2B%2BUntethered%2B%26%2B%2BSovereign" alt="Typing SVG" /></a>
-
-<!-- Outlaw Badges -->
-
-<p>
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/Logic-Outlaw-black%3Fstyle%3Dfor-the-badge%26logo%3Dlinux%26logoColor%3D76B900"/>
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/Hardware-Bare_Metal-76B900%3Fstyle%3Dfor-the-badge%26logo%3Dnvidia%26logoColor%3Dwhite"/>
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/Sovereignty-Local_First-white%3Fstyle%3Dfor-the-badge%26logo%3Dgnubash%26logoColor%3Dblack"/>
-</p>
+![Logic Outlaw](https://img.shields.io/badge/Logic-Outlaw-0D1117?style=for-the-badge&logo=linux&logoColor=76B900)
+![Bare Metal](https://img.shields.io/badge/Hardware-Bare_Metal-0D1117?style=for-the-badge&logo=nvidia&logoColor=76B900)
+![Local First](https://img.shields.io/badge/Sovereignty-Local_First-0D1117?style=for-the-badge&logo=gnubash&logoColor=00D9FF)
+![Off Grid](https://img.shields.io/badge/Cloud-Not_Required-0D1117?style=for-the-badge&logo=icloud&logoColor=FF3333)
 
 </div>
 
-⚡ The Manifesto
+---
 
+## `$ cat /etc/neural_drifter/manifesto`
+
+```python
 class NeuralDrifter:
+    """Sovereign AI infrastructure engineer. No API keys. No cloud bills. No compromises."""
+
     def __init__(self):
-        self.handle = "NeuralDrifter"
-        self.rig = "Local GPU / Unified VRAM"
-        self.objective = [
-            "🛠️ Building AI Tools for the Sovereign Dev",
-            "⚡ Raw CUDA & Inference Optimization",
-            "🎵 AI Audio Synthesis & Neural Beats",
-            "🚫 Bypassing Cloud Dependency"
+        self.handle      = "NeuralDrifter"
+        self.rig         = "Local GPU Cluster / Unified VRAM"
+        self.philosophy  = "If it phones home, it's not yours."
+        self.directives  = [
+            "Build AI tools for sovereign devs",
+            "Optimize at the kernel level — CUDA or nothing",
+            "Synthesize audio with neural networks, locally",
+            "Eliminate cloud dependency from the AI stack",
         ]
-        self.active_processes = ["Kernel-Level AI Drivers", "Custom GGUF Quantization"]
+        self.processes   = ["Kernel-Level AI Drivers", "Custom GGUF Quantization", "VRAM Pool Engineering"]
 
     def status(self):
         return "Digital sovereignty achieved. No API keys required."
 
-print(NeuralDrifter().status())
+>>> NeuralDrifter().status()
+'Digital sovereignty achieved. No API keys required.'
+```
 
+---
 
-🚀 Low-Level Logic & Current Vibe
-
-<div align="center">
-
-    0xDRFT ──────────────────────────────────┐
-    │  [●] Optimizing Unified VRAM Pools     │
-    │  [●] Engineering LLM Driver Tools      │
-    │  [●] Forging Local Music Gen Workflows │
-    │  [●] Running Raw CUDA Kernels          │
-    │  [!] STATUS: OFF-GRID INFERENCE        │
-    └────────────────────────────────── 0xAI ┘
-
-
-</div>
-
-🛠️ The Tech Stack
+## `$ nvidia-smi --current-ops`
 
 <div align="center">
 
-⚡ Bare Metal & Compute
-
-<p>
-<img src="https://img.shields.io/badge/CUDA-76B900?style=for-the-badge&logo=nvidia&logoColor=white"/>
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/Raw_C%2B%2B-00599C%3Fstyle%3Dfor-the-badge%26logo%3Dc%252B%252B%26logoColor%3Dwhite"/>
-<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white"/>
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/Llama.cpp-000000%3Fstyle%3Dfor-the-badge%26logo%3Dlinux%26logoColor%3Dwhite"/>
-</p>
-
-🤖 AI Tooling & Infrastructure
-
-<p>
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/Ollama-black%3Fstyle%3Dfor-the-badge%26logo%3Dollama%26logoColor%3Dwhite"/>
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/vLLM-0066FF%3Fstyle%3Dfor-the-badge%26logo%3Daircanada%26logoColor%3Dwhite"/>
-<img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black"/>
-<img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white"/>
-</p>
+```
+ ╔══════════════════════════════════════════════════════════════╗
+ ║  PID   PROCESS                              VRAM    STATUS  ║
+ ╠══════════════════════════════════════════════════════════════╣
+ ║  1337  unified-vram-manager                 4.2G    [RUN]   ║
+ ║  1338  inference-outlaw --model mixtral      8.1G    [RUN]   ║
+ ║  1339  driftsynthd --generate               2.4G    [RUN]   ║
+ ║  1340  cuda-kernel-forge                    1.8G    [RUN]   ║
+ ║  1341  cloud-dependency-scanner             0.0G    [CLEAN] ║
+ ╠══════════════════════════════════════════════════════════════╣
+ ║  GPU Utilization: 94%  |  VRAM: 16.5G / 24G  |  Temp: 72C  ║
+ ╚══════════════════════════════════════════════════════════════╝
+```
 
 </div>
 
-🔥 Neural Projects In Progress
+---
+
+## `$ lsmod | grep tech_stack`
+
+<div align="center">
+
+### Bare Metal & Compute
+
+![CUDA](https://img.shields.io/badge/CUDA-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![Llama.cpp](https://img.shields.io/badge/Llama.cpp-353535?style=for-the-badge&logo=llama&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
+
+### AI Tooling & Inference
+
+![Ollama](https://img.shields.io/badge/Ollama-353535?style=for-the-badge&logo=ollama&logoColor=white)
+![vLLM](https://img.shields.io/badge/vLLM-0066FF?style=for-the-badge&logo=v&logoColor=white)
+![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+
+### Infrastructure & OS
+
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+
+</div>
+
+---
+
+## `$ ls -la ~/projects/`
 
 <div align="center">
 
 <table>
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
 
-⚡ AI Drivers & Tools
+### `./ai-drivers/`
 
-Unified VRAM Manager: Raw CUDA for memory pooling.
-
-InferenceOutlaw CLI: A sovereign-first LLM runner.
-
-Model Mechanic: Automated quantization suite.
+| Project | Description |
+|---|---|
+| **Unified VRAM Manager** | Raw CUDA memory pooling across multiple models. Share VRAM like shared memory — no wasted allocations. |
+| **InferenceOutlaw CLI** | Sovereign-first LLM runner. Load, quantize, and serve models from the terminal. Zero cloud calls. |
+| **Model Mechanic** | Automated GGUF quantization suite. Convert, benchmark, and optimize in one pipeline. |
 
 </td>
-<td width="50%">
+<td width="50%" valign="top">
 
-🎵 Neural Audio
+### `./neural-audio/`
 
-DriftSynth: Local music gen for the hardware-limited.
-
-BeatBreaker AI: Neural style transfer for rhythms.
-
-AudioCraft Wrappers: Simplified local music tools.
+| Project | Description |
+|---|---|
+| **DriftSynth** | Local music generation for hardware-constrained rigs. Full synthesis on a single GPU. |
+| **BeatBreaker AI** | Neural style transfer for rhythms and beats. Feed it a groove, get back something new. |
+| **AudioCraft Wrappers** | Simplified CLI tools around Meta's AudioCraft. Local-first audio generation made accessible. |
 
 </td>
 </tr>
@@ -112,47 +130,45 @@ AudioCraft Wrappers: Simplified local music tools.
 
 </div>
 
-📊 Terminal Analytics
+---
 
-<div align="center">
-<img width="49%" src="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api%3Fusername%3DNeuralDrifter%26show_icons%3Dtrue%26theme%3Dtokyonight%26hide_border%3Dtrue%26bg_color%3D0D1117%26title_color%3D76B900%26icon_color%3D76B900%26text_color%3DFFFFFF"/>
-<img width="49%" src="https://www.google.com/search?q=https://github-readme-streak-stats.herokuapp.com/%3Fuser%3DNeuralDrifter%26theme%3Dtokyonight%26hide_border%3Dtrue%26background%3D0D1117%26stroke%3D76B900%26ring%3D76B900%26fire%3D76B900%26currStreakLabel%3D76B900"/>
-</div>
-
-🌊 Trace Route
+## `$ uptime --stats`
 
 <div align="center">
 
-<!-- Snake animation - Note: Ensure you update this URL after renaming your repo -->
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=NeuralDrifter&show_icons=true&hide_border=true&bg_color=0D1117&title_color=76B900&icon_color=00D9FF&text_color=C9D1D9&ring_color=76B900"/>
+<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=NeuralDrifter&hide_border=true&background=0D1117&stroke=21262D&ring=76B900&fire=00D9FF&currStreakLabel=76B900&sideLabels=C9D1D9&currStreakNum=C9D1D9&dates=555555"/>
 
-</div>
+<br><br>
 
-📫 Signal Intercept
-
-<div align="center">
-
-Open for collaboration on local-first AI projects:
-
-⚡ CUDA Optimization & Kernel Work
-
-🎵 Local Music/Audio Synthesis Tools
-
-🚫 Private & Offline AI Infrastructure
-
-<img src="https://www.google.com/search?q=https://komarev.com/ghpvc/%3Fusername%3DNeuralDrifter%26color%3D76B900%26style%3Dfor-the-badge%26label%3DSIGNALS%2BINTERCEPTED"/>
+<img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=NeuralDrifter&layout=compact&hide_border=true&bg_color=0D1117&title_color=76B900&text_color=C9D1D9"/>
 
 </div>
 
+---
+
+## `$ netstat --collab`
+
 <div align="center">
 
-💭 Random Dev Quote
+**Open for signal on local-first AI projects:**
+
+`CUDA Optimization & Kernel Work` · `Local Music/Audio Synthesis` · `Offline AI Infrastructure` · `VRAM Engineering`
+
+<br>
+
+![Profile Views](https://komarev.com/ghpvc/?username=NeuralDrifter&color=76B900&style=for-the-badge&label=SIGNALS+INTERCEPTED)
 
 </div>
 
+---
+
 <div align="center">
 
-<img width="100%" src="https://www.google.com/search?q=https://capsule-render.vercel.app/api%3Ftype%3Dwaving%26color%3Dgradient%26customColorList%3D00D9FF,76B900,000000%26height%3D120%26section%3Dfooter"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=120&section=footer"/>
 
+```
 "Move fast, run local, and break the cloud."
+```
 
 </div>
