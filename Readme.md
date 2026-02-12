@@ -1,45 +1,51 @@
-<!-- NeuralDrifter | AI Infrastructure & Sovereign Computing -->
+<!-- NeuralDrifter | AI Toolsmith & Multi-Modal Creative -->
 
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=220&section=header&text=NeuralDrifter&fontSize=80&fontAlignY=35&animation=twinkling&fontColor=76B900&desc=bare%20metal%20%E2%80%A2%20local%20inference%20%E2%80%A2%20sovereign%20compute&descAlignY=55&descSize=18"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=220&section=header&text=NeuralDrifter&fontSize=80&fontAlignY=35&animation=twinkling&fontColor=76B900&desc=ai%20toolsmith%20%E2%80%A2%20multi-modal%20inference%20%E2%80%A2%20ai%20music&descAlignY=55&descSize=18"/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=80&lines=%24+gpuctl+--status+%3E+all_systems_nominal;%24+inferenced+--mode+sovereign+--cloud+none)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=80&lines=%24+freedom-cli+--list-models+%3E+ready;%24+mcp-server+--status+%3E+tools_online)](https://git.io/typing-svg)
 
 <br>
 
-![Logic Outlaw](https://img.shields.io/badge/Logic-Outlaw-0D1117?style=for-the-badge&logo=linux&logoColor=76B900)
-![Bare Metal](https://img.shields.io/badge/Hardware-Bare_Metal-0D1117?style=for-the-badge&logo=nvidia&logoColor=76B900)
-![Local First](https://img.shields.io/badge/Sovereignty-Local_First-0D1117?style=for-the-badge&logo=gnubash&logoColor=00D9FF)
-![Off Grid](https://img.shields.io/badge/Cloud-Not_Required-0D1117?style=for-the-badge&logo=icloud&logoColor=FF3333)
+![AI Toolsmith](https://img.shields.io/badge/AI-Toolsmith-0D1117?style=for-the-badge&logo=openai&logoColor=76B900)
+![Multi-GPU](https://img.shields.io/badge/Hardware-Multi_GPU-0D1117?style=for-the-badge&logo=nvidia&logoColor=76B900)
+![MCP Servers](https://img.shields.io/badge/MCP-Servers-0D1117?style=for-the-badge&logo=gnubash&logoColor=00D9FF)
+![AI Music](https://img.shields.io/badge/Passion-AI_Music-0D1117?style=for-the-badge&logo=musicbrainz&logoColor=FF3333)
 
 </div>
 
 ---
 
-## `$ cat /etc/neural_drifter/manifesto`
+## `$ cat /etc/neural_drifter/about`
 
 ```python
 class NeuralDrifter:
-    """Sovereign AI infrastructure engineer. No API keys. No cloud bills. No compromises."""
+    """AI toolsmith. Building the tools that AIs use — and the rigs that run them."""
 
     def __init__(self):
         self.handle      = "NeuralDrifter"
-        self.rig         = "Local GPU Cluster / Unified VRAM"
-        self.philosophy  = "If it phones home, it's not yours."
-        self.directives  = [
-            "Build AI tools for sovereign devs",
-            "Optimize at the kernel level — CUDA or nothing",
-            "Synthesize audio with neural networks, locally",
-            "Eliminate cloud dependency from the AI stack",
+        self.role        = "AI Toolsmith & Multi-Modal Creative"
+        self.rig         = {
+            "cpu": "Intel Core Ultra 7",
+            "ram": "128GB DDR5",
+            "board": "ASUS ProArt Z890 WiFi",
+            "gpus": ["NVIDIA RTX 5070 Ti", "NVIDIA RTX 2080 Ti", "Intel B660 x2 (24GB VRAM each)"],
+        }
+        self.builds      = [
+            "MCP servers & custom toolkits for LLMs",
+            "Custom inference backend for Intel B660 GPUs",
+            "Multi-modal AI pipelines — image, music, video, text",
+            "Freedom CLI — use any LLM from your terminal",
         ]
-        self.processes   = ["Kernel-Level AI Drivers", "Custom GGUF Quantization", "VRAM Pool Engineering"]
+        self.passions    = ["AI-generated music", "Local inference", "Giving AIs better tools"]
+        self.philosophy  = "Data sovereignty matters — but the work comes first."
 
     def status(self):
-        return "Digital sovereignty achieved. No API keys required."
+        return "Tools online. Models loaded. Music generating."
 
 >>> NeuralDrifter().status()
-'Digital sovereignty achieved. No API keys required.'
+'Tools online. Models loaded. Music generating.'
 ```
 
 ---
@@ -49,17 +55,24 @@ class NeuralDrifter:
 <div align="center">
 
 ```
- ╔══════════════════════════════════════════════════════════════╗
- ║  PID   PROCESS                              VRAM    STATUS  ║
- ╠══════════════════════════════════════════════════════════════╣
- ║  1337  unified-vram-manager                 4.2G    [RUN]   ║
- ║  1338  inference-outlaw --model mixtral      8.1G    [RUN]   ║
- ║  1339  driftsynthd --generate               2.4G    [RUN]   ║
- ║  1340  cuda-kernel-forge                    1.8G    [RUN]   ║
- ║  1341  cloud-dependency-scanner             0.0G    [CLEAN] ║
- ╠══════════════════════════════════════════════════════════════╣
- ║  GPU Utilization: 94%  |  VRAM: 16.5G / 24G  |  Temp: 72C  ║
- ╚══════════════════════════════════════════════════════════════╝
+ ╔═══════════════════════════════════════════════════════════════════════╗
+ ║  GPU   DEVICE                         VRAM          STATUS           ║
+ ╠═══════════════════════════════════════════════════════════════════════╣
+ ║  0     NVIDIA RTX 5070 Ti             16G           [CUDA]           ║
+ ║  1     NVIDIA RTX 2080 Ti             11G           [CUDA]           ║
+ ║  2     Intel B660 Arc                 24G           [INFERENCE]      ║
+ ║  3     Intel B660 Arc                 24G           [INFERENCE]      ║
+ ╠═══════════════════════════════════════════════════════════════════════╣
+ ║  PID   PROCESS                              VRAM    STATUS           ║
+ ╠═══════════════════════════════════════════════════════════════════════╣
+ ║  1337  mcp-server --tools active            1.2G    [RUN]            ║
+ ║  1338  freedom-cli --model llama3           8.1G    [RUN]            ║
+ ║  1339  music-gen --compose                  6.4G    [RUN]            ║
+ ║  1340  img-pipeline --generate              4.8G    [RUN]            ║
+ ║  1341  b660-backend --inference             12.0G   [RUN]            ║
+ ╠═══════════════════════════════════════════════════════════════════════╣
+ ║  Total VRAM: 75G  |  CPU: Ultra 7  |  RAM: 128GB  |  Board: Z890   ║
+ ╚═══════════════════════════════════════════════════════════════════════╝
 ```
 
 </div>
@@ -70,20 +83,19 @@ class NeuralDrifter:
 
 <div align="center">
 
-### Bare Metal & Compute
+### AI Tools & Frameworks
 
-![CUDA](https://img.shields.io/badge/CUDA-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![MCP](https://img.shields.io/badge/MCP-Servers-76B900?style=for-the-badge&logo=openai&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![Llama.cpp](https://img.shields.io/badge/Llama.cpp-353535?style=for-the-badge&logo=llama&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
-
-### AI Tooling & Inference
-
+![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
 ![Ollama](https://img.shields.io/badge/Ollama-353535?style=for-the-badge&logo=ollama&logoColor=white)
 ![vLLM](https://img.shields.io/badge/vLLM-0066FF?style=for-the-badge&logo=v&logoColor=white)
-![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
+
+### Compute & Hardware
+
+![CUDA](https://img.shields.io/badge/CUDA-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
+![Intel](https://img.shields.io/badge/Intel-Arc_B660-0071C5?style=for-the-badge&logo=intel&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 
 ### Infrastructure & OS
@@ -105,24 +117,25 @@ class NeuralDrifter:
 <tr>
 <td width="50%" valign="top">
 
-### `./ai-drivers/`
+### `./ai-tools/`
 
 | Project | Description |
 |---|---|
-| **Unified VRAM Manager** | Raw CUDA memory pooling across multiple models. Share VRAM like shared memory — no wasted allocations. |
-| **InferenceOutlaw CLI** | Sovereign-first LLM runner. Load, quantize, and serve models from the terminal. Zero cloud calls. |
-| **Model Mechanic** | Automated GGUF quantization suite. Convert, benchmark, and optimize in one pipeline. |
+| **Freedom CLI** | Use a wide variety of LLMs from a single CLI. Model-agnostic, flexible, yours. |
+| **MCP Servers** | Custom Model Context Protocol servers — building the tools that AIs use. |
+| **LLM Toolkits** | Custom toolkits and integrations that give LLMs better capabilities. |
+| **B660 Inference Backend** | Custom backend for Intel B660 GPUs to improve local inference performance. |
 
 </td>
 <td width="50%" valign="top">
 
-### `./neural-audio/`
+### `./creative-ai/`
 
 | Project | Description |
 |---|---|
-| **DriftSynth** | Local music generation for hardware-constrained rigs. Full synthesis on a single GPU. |
-| **BeatBreaker AI** | Neural style transfer for rhythms and beats. Feed it a groove, get back something new. |
-| **AudioCraft Wrappers** | Simplified CLI tools around Meta's AudioCraft. Local-first audio generation made accessible. |
+| **AI Music Apps** | Multiple AI music applications in development (not yet public). |
+| **Image Pipelines** | Local image generation and processing workflows across multi-GPU setups. |
+| **Video AI** | Video generation and processing with local inference. |
 
 </td>
 </tr>
@@ -151,9 +164,9 @@ class NeuralDrifter:
 
 <div align="center">
 
-**Open for signal on local-first AI projects:**
+**Open for signal on:**
 
-`CUDA Optimization & Kernel Work` · `Local Music/Audio Synthesis` · `Offline AI Infrastructure` · `VRAM Engineering`
+`MCP Servers & AI Tooling` · `AI Music Generation` · `Multi-Modal AI Pipelines` · `Local Inference Optimization`
 
 <br>
 
@@ -168,7 +181,7 @@ class NeuralDrifter:
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=120&section=footer"/>
 
 ```
-"Move fast, run local, and break the cloud."
+"Build the tools. Run the models. Make the music."
 ```
 
 </div>
